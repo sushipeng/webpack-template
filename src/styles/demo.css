@@ -1,0 +1,7 @@
+@import './home.css';
+body {
+	background: blue;
+}
+body .box{
+	font-size:24px;
+}
