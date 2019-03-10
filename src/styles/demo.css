@@ -5,3 +5,9 @@ body {
 body .box{
 	font-size:24px;
 }
+.img {
+	width: 150px;
+	height: 150px;
+	background: url('../images/1.jpg') no-repeat center center;
+	background-size: contain;
+}
