@@ -1,0 +1,192 @@
+手机端调试fiddle
+
+
+https://api.github.com/users/itstrive
+
+http转https  有影响其实是资源文件   img script css  对跳转是没有影响的
+
+开发线：cmp cmp20048.
+测试线：cmp cmp20044.
+正式线：sushipeng/sushipeng223  sushipeng 
+正式线权限http://manager.20044.3361.com/public/create-cmp-user
+
+开发线: http://edmp.local/public/login
+        http://edmp.local/511?local=cmc-hero-2
+
+测试线：http://20044.3361.com/public/index
+        
+Team@OSC 社区
+https://team.oschina.net/home/join?invite=25E2F83D9910B5038AFC8E6741F16C21&inviter=A0C27C55F8118B74
+1015341057@qq.com
+123456++
+
+Zoho排期
+shipengsu@infinite.net.cn
+Wsdmw9
+
+
+文件上传:http://upimage.3361.com/index/index
+         http://upimage.vrm.cn/index/index
+用户名：infinite
+密码：wanzhang
+
+短链登录网址：http://t.vrm.cn/admin 
+账号：uri@infinite.net.cn
+密码：infinite_uri
+
+白龙马http://hdyl.vrm.cn/login
+sushipeng
+123456
+
+
+wifi密码：
+Infinite_Guest(访客网络)：wanzhang_smg9
+Infinite_Staff wifi密码：infinite_!smg9
+
+百度统计代码
+使用说明http://jinshu.baidu.com/preview?from=app&productId=222&versionId=272&tab=3&ch=99
+链接：www2.baidu.com
+账户：百家投资
+密码：B8oP71
+
+
+Gitlab
+shipengsu@infinite.net.cn
+123456Wz
+
+
+csdn
+帐号  chernbb  
+密码  Csdn20182018
+
+
+[]  表示全部可选项 ||  表示或者 | 表示多选一  ？表示0个或者1个 * 表示0个或者多个 {}  表示范围
+
+
+LayaAIR Egret(白鹭) Cocos2d-js three.js
+Cocos Creator、或layabox
+
+onwheel鼠标滚轮在元素上下滚动时触
+clipboardData 复制
+
+webeork
+
+192.168.0.201
+账号：root 密码：redhat
+
+html基础
+html在浏览器默认样式
+
+
+js  html5
+video audio svg  canvas iframe...  object ...
+拖放  地理定位 web存储 程序缓存 websocket  webworkers 
+api
+
+
+
+css基础
+css布局： 1.float display..  2 gird  3 Flexbox
+css思想：Css设计模式-理论篇之OOCSS、SMACSS与BEM
+css预处理器  scss/sass(compass) less sylus   postcss
+css案例   pc wap
+css reset  me.css   pc wap 
+css兼容(前缀 hack)  pc  wap
+http://www.zymseo.com/16.html
+
+移动端适配 rem(fixeble.js js计算 meta  flexbox)
+
+测试
+
+pc  360、搜狗、chrome、ie8、ie9、ie10、火狐和QQ  opera safari
+wap UC浏览器、QQ浏览器、手机百度、
+ chrome、 360浏览器、猎豹浏览器、safari、搜狗浏览器 微信
+
+需求支持PC端系统
+
+Winxp、win7、win8、win10、Mac
+
+需要支持wap端系统及型号
+
+Android 、IOS；三星not7、三星not7、vivo x7、OPPO  r9、荣耀8、红米 note3
+
+bug  wap 手机型号 系统版本 浏览器 浏览器版本
+pc  系统 浏览器 浏览器版本
+
+
+post和get区别
+
+git和svn区别
+
+http请求
+
+跨越方式
+
+form提交方式
+
+script async  defer
+
+
+水平居中 垂直居中
+
+first-child  first-of-type 区别 first-child父级下的第一个子元素,first-of-type相同名称的第一个兄弟元素
+
+ 使用 "return" 来提前结束 $.each() 循环。
+
+
+map()方法主要用来遍历操作数组和对象，each()主要用于遍历jquery对象
+map()返回一个新的数组，有可能造成内存浪费，each()返回的是原来的数组，并不会新创建一个数组
+当遍历数组的时候,map()因为是创建一个新的数组，所以对原来的数组也不会造成影响。
+
+each()因为没有返回值，所以用不用return都不会改变其值，
+当遍历对象的时候，map()改动了参数值（必须加return，否则返回[]），遍历创建的新对象和原来的对象均被改变了
+each()遍历时候如果改动了参数值（不管return有木有加），原来的对象即被改变了
+
+
+$(document).height() 获取不带px(数学计算用)  用$().css(“hright”) 带px
+$(window).height()   
+
+mouseenter事件  不触发冒泡 和mouseover  触发冒泡 的不同之处是事件的冒泡的方式
+
+$(window).resize(function() {});
+$(window).scroll(function () {});
+
+
+
+插件制作
+// 添加到jq对象上
+$.fn.extend({
+    change:function(){
+    }
+})
+$("input").xiaoping();
+
+
+jQuery对象扩展方法     $.fn.pluginName = function() {};
+===========================
+
+$.extend({
+ change:function(){
+    }
+})
+$.xiaoping();
+
+或 全局jQuery函数扩展方法 $.pluginName = function() {};
+
+
+
+按下并按住这个键（不松开释放）的时候，keydown事件只触发一次，但keypress会在每个字符插入的时候都会触发事件
+组合键（如Shift）会触发keydown事件，但不会触发keypress事件
+
+从一个处理函数返回false等效于调用事件对象中的.preventDefault()和.stopPropagation()
+
+
+
+  event.target.nodeName
+
+
+
+
+
+
+
